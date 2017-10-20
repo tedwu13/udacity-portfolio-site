@@ -1,0 +1,16 @@
+.full-name {
+    font-family: Montserrat, Arial;
+    font-weight: 300;
+}
+
+.featured-work-image {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    display:block;
+    margin:auto;
+}
+
+.grey {
+    color: #7d97ad
+}
