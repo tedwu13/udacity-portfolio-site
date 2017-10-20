@@ -1,5 +1,6 @@
 body {
     font-color: #2d3c49;
+    font-family: Montserrat, Arial;
 }
 
 hr {
@@ -7,13 +8,25 @@ hr {
     margin-bottom: 1rem;
     border: 0;
     border-top: 5px solid rgba(0, 0, 0, 0.1);
-    width: 66%;
+    width: 74%;
+    margin-right: 9%;
 }
+
+.personal-info {
+    text-align: right;
+}
+
 .full-name {
-    font-family: Montserrat, Arial;
     font-weight: 300;
 }
 
+.featured-work {
+    margin-top: 2em;
+}
+
+.featured-work-title {
+    color: #7d97ad;
+}
 .featured-work-image {
     border-color: black;
     border-style: solid;
@@ -22,6 +35,9 @@ hr {
     margin:auto;
 }
 
-.grey {
-    color: #7d97ad
-}
+
+@media (min-width: 576px) { ... }
+
+@media (min-width: 768px) { ... }
+
+@media (min-width: 992px) { ... }
