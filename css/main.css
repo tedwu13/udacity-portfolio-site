@@ -1,3 +1,14 @@
+body {
+    font-color: #2d3c49;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
+    width: 66%;
+}
 .full-name {
     font-family: Montserrat, Arial;
     font-weight: 300;
