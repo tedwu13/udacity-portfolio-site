@@ -12,9 +12,12 @@ hr {
     margin-right: 9%;
 }
 
+.personal {
+    margin-top: 2em;
+}
+
 .personal-info {
     text-align: right;
-    margin-top: 2em;
 }
 
 .full-name {
@@ -43,9 +46,31 @@ hr {
     text-transform: uppercase;
 }
 
+.personal-logo {
+    width: 156px;
+    height: 100px;
+    margin-left: 5px;
+}
+@media (min-width: 576px) {
+    .personal-logo {
+        width: 186px;
+        height: 125px;
+        margin-left: 50px;
+    }
+}
 
-@media (min-width: 576px) { ... }
+@media (min-width: 768px) {
+    .personal-logo {
+        width: 200px;
+        height: 125px;
+        margin-left: 80px;
+    }
+}
 
-@media (min-width: 768px) { ... }
-
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) {
+    .personal-logo {
+        width: 236px;
+        height: 125px;
+        margin-left: 110px;
+    }
+}
