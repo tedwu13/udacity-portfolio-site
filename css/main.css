@@ -1,15 +1,12 @@
 body {
-    font-color: #2d3c49;
-    font-family: Montserrat, Arial;
+    color: #2d3c49;
+    font-family: Montserrat, Arial, sans-serif;
 }
 
 hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
+    margin: 1rem 0 1rem 16%;
     border-top: 5px solid rgba(0, 0, 0, 0.1);
-    width: 82%;
-    margin-right: 1%;
+    width: 84%;
 }
 
 .personal {
@@ -20,24 +17,25 @@ hr {
     text-align: right;
 }
 
+.personal-logo {
+    min-width: 70px;
+}
+
 .full-name {
     font-weight: 300;
 }
 
 .featured-work {
-    margin-top: 2em;
-    margin-bottom: 5em;
+    margin: 2em 0 5em 0;
 }
 
 .featured-work-title {
     color: #7d97ad;
 }
 .featured-work-image {
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
-    display:block;
-    margin:auto;
+    border: black solid 1px;
+    display: block;
+    margin: auto;
 }
 
 .project-details {
@@ -51,16 +49,22 @@ hr {
         font-size: 1rem
     }
     h4 {
-        font-size: 0.5rem;
+        font-size: 0.7rem;
+    }
+    a {
+        font-size: 0.6rem;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
     h1 {
-        font-size: 1.25rem;
+        font-size: 1.45rem;
     }
     h4 {
-        font-size: 0.7rem;
+        font-size: 1.0rem;
+    }
+    a {
+        font-size: 0.9rem;
     }
 }
 
@@ -70,5 +74,8 @@ hr {
     }
     h4 {
         font-size: 1.3rem;
+    }
+    a {
+        font-size: 1.2rem;
     }
 }
