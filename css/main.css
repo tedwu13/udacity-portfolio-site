@@ -8,8 +8,8 @@ hr {
     margin-bottom: 1rem;
     border: 0;
     border-top: 5px solid rgba(0, 0, 0, 0.1);
-    width: 74%;
-    margin-right: 9%;
+    width: 82%;
+    margin-right: 1%;
 }
 
 .personal {
@@ -46,31 +46,29 @@ hr {
     text-transform: uppercase;
 }
 
-.personal-logo {
-    width: 156px;
-    height: 100px;
-    margin-left: 5px;
-}
-@media (min-width: 576px) {
-    .personal-logo {
-        width: 186px;
-        height: 125px;
-        margin-left: 50px;
+@media (max-width: 575px) {
+    h1 {
+        font-size: 1rem
+    }
+    h4 {
+        font-size: 0.5rem;
     }
 }
 
-@media (min-width: 768px) {
-    .personal-logo {
-        width: 200px;
-        height: 125px;
-        margin-left: 80px;
+@media (min-width: 576px) and (max-width: 767px) {
+    h1 {
+        font-size: 1.25rem;
+    }
+    h4 {
+        font-size: 0.7rem;
     }
 }
 
-@media (min-width: 992px) {
-    .personal-logo {
-        width: 236px;
-        height: 125px;
-        margin-left: 110px;
+@media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 2.15rem;
+    }
+    h4 {
+        font-size: 1.3rem;
     }
 }
